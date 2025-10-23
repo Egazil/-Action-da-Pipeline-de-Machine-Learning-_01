@@ -2,7 +2,6 @@
 # Foi trocado para uma Arvore de classificação
 # A base de dados foi colocada como a iris
 
-!pip install ucimlrepo
 from ucimlrepo import fetch_ucirepo
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -31,3 +30,4 @@ report = classification_report(y_test, y_pred)
 # 5. Salvamento do relatório
 with open("report.txt", "w") as f:
     f.write(report)
+
