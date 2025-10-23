@@ -1,6 +1,6 @@
 ucimlrepo
 pandas>=1.0.0
-sklearn-learn
+scikit-learn
 
 
 
